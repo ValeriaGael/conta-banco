@@ -6,22 +6,22 @@
            
             Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
             
-            System.out.println("Por favor, digite o número inteiro!");
-            int numero = scanner.nextInt();
+            System.out.println("Por favor, digite o número da Conta!");
+            int numeroConta = scanner.nextInt();
             
             System.out.println("Por favor, digite o número da sua Agência!");
             String agencia = scanner.next();
 
-            System.out.println("Por favor, digite seu nome");
-            String nome = scanner.next();
+            System.out.println("Por favor, digite seu nome!");
+            String nomeCliente = scanner.next();
 
-            System.out.println("Digite seu sobrenome");
-            String sobrenome = scanner.next();    
+            System.out.println("Por favor, digite seu sobrenome");
+            String sobrenomeCliente = scanner.next();    
                   
-            System.out.println("Digite seu saldo");
-            double saldo = scanner.nextDouble();              
-           
-            System.out.println("Ola, " + nome + " " + sobrenome + ", obrigada por criar uma conta em nosso banco, sua agencia é " + agencia + ", conta " + numero + " e seu saldo R$ " + saldo + " já está disponível para saque");
+            System.out.println("Por favor, digite seu saldo");
+            double saldo = scanner.nextDouble(); 
+                
+             System.out.println("Ola, " + nomeCliente + " " + sobrenomeCliente + ", obrigada por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numeroConta + " e seu saldo R$" + saldo + " já está disponível para saque.");
             
         }
     }
